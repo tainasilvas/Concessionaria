@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+     <head>
+        <title>Sistema de Carros</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 300px;
+    }
+    ul li {
+    position: relative;
+    }
+    li ul {
+    position: absolute;
+    left: 149px;
+    top: 0;
+    display: none;
+    }
+    ul li a {
+    display: block;
+    text-decoration: none;
+    color: #E2144A;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ccc; 
+}
+
+
+        </style>
+    </head>
+    <body>
+        <h2>Sistema de cadastro de veículos</h2><br/><br/><hr/>
+        <ul>
+            <li><a href="listarTodos.jsp">Listar todos os carros (com opção de exclusão)</a></li>
+            <li><a href="incluirCarro.jsp">Incluir um novo carro</a></li>
+            <li><a href="busca.jsp">Buscar um carro pela placa para atualiza-lo</a></li>
+        </ul>
+        <br/>
+        <hr/>
+    </body>
+</html>
